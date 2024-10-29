@@ -1,6 +1,9 @@
 <template>
     <div>
         <NuxtRouteAnnouncer />
-        <NuxtWelcome />
+        <NavigationHeader />
+        <SectionHeader />
+        <SectionAbout />
     </div>
 </template>
+<script setup lang="ts"></script>
