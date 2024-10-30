@@ -18,14 +18,7 @@
                         class="relative p-8 w-full h-full bg-white overflow-y-auto"
                     >
                         <div class="flex items-center justify-between">
-                            <!--                            <a href="#" class="inline-block">
-                                <img
-                                    class="h-7"
-                                    src="consulty-assets/logos/consulty-logo2.svg"
-                                    alt
-                                />
-                            </a>-->
-                            <a href="#">
+                            <!--                            <a href="#">
                                 <svg
                                     width="{24}"
                                     height="{24}"
@@ -41,81 +34,10 @@
                                         strokeLinejoin="round"
                                     />
                                 </svg>
-                            </a>
+                            </a>-->
                         </div>
-                        <ul class="flex flex-col gap-12 py-12">
-                            <li>
-                                <a
-                                    href="#"
-                                    class="inline-block py-2 px-3 hover:bg-gray-50 transition duration-200 rounded-full"
-                                >
-                                    <div class="flex items-center gap-2">
-                                        <span
-                                            class="text-sm font-medium tracking-tight"
-                                            >Products</span
-                                        >
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="{17}"
-                                            height="{16}"
-                                            viewBox="0 0 17 16"
-                                            fill="none"
-                                        >
-                                            <path
-                                                d="M12.848 6L8.18132 10.6667L3.51465 6"
-                                                stroke="black"
-                                                strokeWidth="1.5"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                            />
-                                        </svg>
-                                    </div>
-                                </a>
-                            </li>
-                            <li>
-                                <a
-                                    href="#"
-                                    class="inline-block py-2 px-3 hover:bg-gray-50 transition duration-200 text-sm font-medium tracking-tight rounded-full"
-                                    >Case Studies</a
-                                >
-                            </li>
-                            <li>
-                                <a
-                                    href="#"
-                                    class="inline-block py-2 px-3 hover:bg-gray-50 transition duration-200 text-sm font-medium tracking-tight rounded-full"
-                                    >Support</a
-                                >
-                            </li>
-                            <li>
-                                <a
-                                    href="#"
-                                    class="inline-block py-2 px-3 hover:bg-gray-50 transition duration-200 rounded-full"
-                                >
-                                    <div class="flex items-center gap-2">
-                                        <span
-                                            class="text-sm font-medium tracking-tight"
-                                            >Resources</span
-                                        >
-                                        <svg
-                                            xmlns="http://www.w3.org/2000/svg"
-                                            width="{17}"
-                                            height="{16}"
-                                            viewBox="0 0 17 16"
-                                            fill="none"
-                                        >
-                                            <path
-                                                d="M12.848 6L8.18132 10.6667L3.51465 6"
-                                                stroke="black"
-                                                strokeWidth="1.5"
-                                                strokeLinecap="round"
-                                                strokeLinejoin="round"
-                                            />
-                                        </svg>
-                                    </div>
-                                </a>
-                            </li>
-                        </ul>
-                        <div class="flex flex-col gap-4">
+
+                        <!--                        <div class="flex flex-col gap-4">
                             <a
                                 href="#"
                                 class="rounded-full bg-black px-5 py-3 h-14 hover:bg-orange-600 focus:bg-orange-500 focus:ring-4 focus:ring-orange-200 inline-flex items-center justify-center gap-2 transition duration-200"
@@ -140,16 +62,16 @@
                                     />
                                 </svg>
                             </a>
-                        </div>
+                        </div>-->
                     </nav>
                 </div>
             </div>
             <div class="pt-80">
-                <h1
+                <h2
                     class="font-heading tracking-tight text-5xl md:text-7xl text-white font-medium max-w-xs md:max-w-xl mb-6"
                 >
                     Boostez votre entreprise !
-                </h1>
+                </h2>
                 <p class="tracking-tight text-white text-lg mb-8 max-w-md">
                     Élevez votre présence en ligneavec nos solutions web clés en
                     main !
@@ -161,7 +83,7 @@
                     <span class="font-bold tracking-tight"
                         >Booker une visio</span
                     >
-                    <svg
+                    <!--                    <svg
                         xmlns="http://www.w3.org/2000/svg"
                         width="{16}"
                         height="{16}"
@@ -175,7 +97,7 @@
                             strokeLinecap="round"
                             strokeLinejoin="round"
                         />
-                    </svg>
+                    </svg>-->
                 </a>
             </div>
             <div class="hidden md:block absolute bottom-8 right-8"></div>

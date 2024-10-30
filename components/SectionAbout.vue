@@ -6,11 +6,11 @@
         <p class="mb-4 tracking-tight">À propos de nous</p>
         <div class="flex flex-wrap -m-4 mb-20">
             <div class="w-full lg:w-1/2 p-4">
-                <h1
+                <h2
                     class="font-heading text-4xl md:text-6xl font-medium max-w-xs md:max-w-lg tracking-tight"
                 >
                     Des sites uniques et performants
-                </h1>
+                </h2>
             </div>
             <div class="w-full lg:w-1/2 p-4">
                 <p class="text-lg font-medium mb-4 max-w-xl tracking-tight">
@@ -90,12 +90,4 @@
     </section>
 </template>
 
-<script lang="ts">
-export default {
-    name: 'AboutSection',
-}
-</script>
-
-<style scoped>
-/* Ajoute tes styles ici si nécessaire */
-</style>
+<script lang="ts" setup></script>

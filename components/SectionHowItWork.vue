@@ -1,10 +1,10 @@
 <template>
     <section class="px-8 pt-32 pb-40 md:px-20">
-        <h1
+        <h2
             class="font-heading tracking-tight text-4xl md:text-6xl font-medium mb-4"
         >
             Votre site en 3 étapes
-        </h1>
+        </h2>
         <p class="tracking-tight text-gray-700 text-lg mb-20">
             Un processus clair pour un site web réussi en un temps record.
         </p>
@@ -74,7 +74,3 @@ const steps = ref([
     },
 ])
 </script>
-
-<style scoped>
-/* Add any additional styles here if necessary */
-</style>
