@@ -4,9 +4,13 @@
         <NavigationHeader />
         <SectionHeader />
         <SectionAbout />
-        <LazySectionService />
-        <LazySectionHowItWork />
-        <LazySectionPricing />
+        <SectionService />
+        <SectionHowItWork />
+        <SectionPricing />
+        <SectionExemple />
+        <SectionTestimonials />
+        <SectionFaq />
+        <SectionFooter />
     </div>
 </template>
 <script setup lang="ts"></script>
