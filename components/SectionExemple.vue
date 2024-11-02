@@ -1,4 +1,22 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import { reactive } from 'vue'
+const data = reactive({
+    exemple: [
+        {
+            website: 'Municipal',
+            billingPlan: 'Formule Basic',
+        },
+        {
+            website: 'Keystone',
+            billingPlan: 'Formule Standard',
+        },
+        {
+            website: 'Sonnex',
+            billingPlan: 'Formule Pro',
+        },
+    ],
+})
+</script>
 
 <template>
     <section class="px-8 pt-32 md:px-20 pb-20">
@@ -25,6 +43,16 @@
             </div>
             <div class="w-full lg:w-1/2 p-4">
                 <div
+                    class="bg-white border border-gray-100 rounded-2xl p-5 flex items-center justify-between flex-wrap gap-4 mb-2"
+                    v-for="(item, index) in data.exemple"
+                    :key="index"
+                >
+                    <FeatursLinkExemple
+                        :billing-plan="item.billingPlan"
+                        :website="item.website"
+                    />
+                </div>
+                <!--                <div
                     class="bg-white border border-gray-100 rounded-2xl p-5 flex items-center justify-between flex-wrap gap-4 mb-2"
                 >
                     <div>
@@ -67,8 +95,8 @@
                             </svg>
                         </div>
                     </a>
-                </div>
-                <div
+                </div>-->
+                <!--                <div
                     class="bg-white border border-gray-100 rounded-2xl p-5 flex items-center justify-between flex-wrap gap-4 mb-2"
                 >
                     <div>
@@ -111,8 +139,8 @@
                             </svg>
                         </div>
                     </a>
-                </div>
-                <div
+                </div>-->
+                <!--                <div
                     class="bg-white border border-gray-100 rounded-2xl p-5 flex items-center justify-between flex-wrap gap-4"
                 >
                     <div>
@@ -155,7 +183,7 @@
                             </svg>
                         </div>
                     </a>
-                </div>
+                </div>-->
             </div>
         </div>
         <div class="flex flex-wrap -m-4"></div>
