@@ -1,3 +1,4 @@
+/*
 // eslint-disable-next-line @typescript-eslint/no-require-imports
 const colors = require('tailwindcss/colors');
 module.exports = {
@@ -1070,11 +1071,11 @@ module.exports = {
         "extend": []
     },
     content: [
-        './components/**/*.{vue,js,ts}',
-        './layouts/**/*.vue',
-        './pages/**/*.vue',
+        './components/!**!/!*.{vue,js,ts}',
+        './layouts/!**!/!*.vue',
+        './pages/!**!/!*.vue',
         './app.vue',
     ],
 
     "plugins": []
-};
+};*/
