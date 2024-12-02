@@ -1,13 +1,25 @@
 <script lang="ts" setup>
 import { reactive } from 'vue'
+
 const state = reactive({
     links: [
-        { label: 'À propos', link: '#' },
-        { label: 'Services', link: '#' },
-        { label: 'Tarifs', link: '#' },
-        { label: 'Projects', link: '#' },
-        { label: 'Contact', link: '#' },
+        { label: 'À propos', link: 'about' },
+        { label: 'Services', link: 'service' },
+        { label: 'Tarifs', link: 'price' },
+        { label: 'Projects', link: 'project' },
+        { label: 'Contact', link: 'contact' },
     ],
+})
+
+// Default to top is instant
+// eslint-disable-next-line no-undef
+const { scrollToAnchor } = useAnchorScroll({
+    toTop: {
+        scrollOptions: {
+            behavior: 'smooth',
+            offsetTop: 0,
+        },
+    },
 })
 </script>
 
@@ -27,7 +39,8 @@ const state = reactive({
                 <ul class="hidden lg:flex items-center gap-2">
                     <li v-for="(link, index) in state.links" :key="index">
                         <NuxtLink
-                            :to="link.link"
+                            :href="`#${link.link}`"
+                            @click="scrollToAnchor(link.link)"
                             class="inline-block py-2 px-3 hover:bg-gray-100 hover:text-black transition duration-200 text-sm font-medium tracking-tight rounded-full"
                         >
                             {{ link.label }}</NuxtLink

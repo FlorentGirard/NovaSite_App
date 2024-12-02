@@ -1,5 +1,5 @@
 <template>
-    <section class="px-8 py-32 md:px-20 bg-black">
+    <section class="px-8 py-32 md:px-20 bg-black" id="service">
         <div class="flex flex-wrap -m-4 mb-32">
             <div class="w-full md:w-1/2 p-4">
                 <h2

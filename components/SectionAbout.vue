@@ -1,7 +1,22 @@
+<script setup lang="ts">
+// eslint-disable-next-line no-undef
+const { scrollToAnchor } = useAnchorScroll({
+    toTop: {
+        scrollOptions: {
+            behavior: 'smooth',
+            offsetTop: 0,
+        },
+    },
+})
+// eslint-disable-next-line no-undef
+const contact = ref('contact')
+</script>
+
 <template>
     <section
         class="relative overflow-hidden pt-24 px-8 md:px-20"
         :style="{ height: '900px' }"
+        id="about"
     >
         <p class="mb-4 tracking-tight">À propos de nous</p>
         <div class="flex flex-wrap -m-4 mb-20">
@@ -25,9 +40,11 @@
                 </p>
                 <a href="#" class="group inline-block">
                     <div class="flex items-center gap-2">
-                        <span
+                        <nuxt-link
+                            :href="`#${contact}`"
+                            @click="scrollToAnchor('contact')"
                             class="font-medium text-black group-hover:text-opacity-80 transition duration-200 tracking-tight"
-                            >Nous contacter</span
+                            >Nous contacter</nuxt-link
                         >
                         <div
                             class="text-black group-hover:text-opacity-80 transition duration-200"

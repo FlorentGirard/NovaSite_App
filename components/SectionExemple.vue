@@ -19,7 +19,7 @@ const data = reactive({
 </script>
 
 <template>
-    <section class="px-8 pt-32 md:px-20 pb-20">
+    <section class="px-8 pt-32 md:px-20 pb-20" id="project">
         <h1
             class="font-heading tracking-tight text-4xl md:text-5xl font-medium mb-4"
         >

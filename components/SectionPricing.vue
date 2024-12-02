@@ -53,7 +53,7 @@ const data = reactive({
 </script>
 
 <template>
-    <section class="py-32 bg-gray-50 md:px-20">
+    <section class="py-32 bg-gray-50 md:px-20" id="price">
         <div class="container mx-auto">
             <h1
                 class="font-heading tracking-tight text-4xl md:text-6xl font-medium text-center mb-6"

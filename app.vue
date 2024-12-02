@@ -10,7 +10,8 @@
         <SectionExemple />
         <SectionTestimonials />
         <SectionFaq />
-        <SectionFooter />
+        <SectionFooter id="#link" />
     </div>
 </template>
 <script setup lang="ts"></script>
+<style></style>

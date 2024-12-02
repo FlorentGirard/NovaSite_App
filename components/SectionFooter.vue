@@ -2,7 +2,7 @@
 
 <template>
     <section class="px-8 py-32 bg-black relative overflow-hidden md:px-20">
-        <div class="flex flex-wrap -m-4">
+        <div class="flex flex-wrap -m-4" id="contact">
             <div class="w-full lg:w-1/2 p-4">
                 <div class="flex flex-col justify-between gap-8 h-full">
                     <div>
@@ -48,6 +48,7 @@
             </div>
             <div class="w-full lg:w-1/2 p-4">
                 <div class>
+                    <!--                    <FeatursContactForm />-->
                     <!--            <form action="#">
               <div class="max-w-2xl">
                 <div class="flex flex-wrap -m-4 mb-3">

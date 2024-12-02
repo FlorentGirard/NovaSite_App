@@ -18,11 +18,24 @@ const buttonClass = computed(() => {
             return 'bg-white text-black border border-gray-200 hover:bg-gray-50 focus:ring-4 focus:ring-gray-200'
     }
 })
+
+// eslint-disable-next-line no-undef
+const { scrollToAnchor } = useAnchorScroll({
+    toTop: {
+        scrollOptions: {
+            behavior: 'smooth',
+            offsetTop: 0,
+        },
+    },
+})
+// eslint-disable-next-line no-undef
+const contact = ref('contact')
 </script>
 
 <template>
     <NuxtLink
-        to="#"
+        :href="`#${contact}`"
+        @click="scrollToAnchor(contact)"
         :class="[
             'rounded-full px-6 py-4 inline-flex items-center justify-center gap-2 transition duration-200',
             buttonClass,

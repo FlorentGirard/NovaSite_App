@@ -37,6 +37,7 @@ defineProps<{
                 v-for="(item, index) in formule"
                 :key="index"
             >
+                <UIcon name="mdi:check" class="text-orange-400 text-[18px]" />
                 <span
                     class="tracking-tight font-medium"
                     :class="{ 'text-white': isMostPopular }"
@@ -46,8 +47,6 @@ defineProps<{
         </ul>
         <CommonBookerAVisio />
     </div>
-
-    -
 </template>
 
 <style scoped></style>
